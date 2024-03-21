@@ -8,13 +8,13 @@ license = "MIT OR Apache-2.0"
 
 [dependencies]
 halo2_proofs = { git = "https://github.com/taikoxyz/halo2.git", branch = "taiko/unstable" }
-snark-verifier = { git = "https://github.com/taikoxyz/snark-verifier.git", branch = "a6-integration", default-features = false, features = [
+snark-verifier = { git = "https://github.com/taikoxyz/snark-verifier.git", rev = "612f4950197af29883b6e67f9099117318579f99", default-features = false, features = [
     "loader_halo2",
     "system_halo2",
     "loader_evm",
     "parallel",
 ] }
-snark-verifier-sdk = { git = "https://github.com/taikoxyz/snark-verifier.git", branch = "a6-integration", default-features = false, features = [
+snark-verifier-sdk = { git = "https://github.com/taikoxyz/snark-verifier.git", rev = "612f4950197af29883b6e67f9099117318579f99", default-features = false, features = [
     "loader_halo2",
     "loader_evm",
     "parallel",
